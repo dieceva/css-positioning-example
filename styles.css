@@ -1,0 +1,316 @@
+/* Reset Browser Default Styles using universal * selector */
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+
+/* Whole page styles (everything is in <body> */
+body {
+
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+
+/* Styles for the <header> section */
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(161, 184, 31);
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 1407px;
+
+}
+
+/* Styles for the <nav> section */
+nav {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: white;
+    border: solid;
+    vertical-align: center  ;
+    border-color: rgb(25, 6, 25);
+    border-width: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    margin-right:1px;
+    padding-top: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    width: 1407px;
+}
+nav > ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Styles for the <main> section */
+main {
+    display: inline-block;
+    background-color: rgb(48, 54, 61);
+    width: 1407px;
+    height: 1800px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+/* Styles for the <article> sections */
+article {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    background-color: #a4991bde;
+    width: 800px;
+    height: 400px;
+}
+aside {
+    box-sizing: border-box;
+    background-color: rgb(144, 199, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+    height: 200px;
+    margin-bottom: -240px;
+    margin-top: 10x;
+    margin-left: 800px;
+    margin-right: 0px;
+}
+span    {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 100;
+}
+/* Class Selector */
+.specific   {
+    background-color: rgba(34, 189, 189, 0.26);
+    display: block;
+    width: 1000px;
+    height: 800px;
+}
+.dropdown   {
+    position: relative;
+
+}
+.dropdown:hover {
+
+}
+.home   {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: -100px;
+}
+.test   {
+    background-color: #896e99b0;
+    display: inline-block;
+    width: 400px;
+    height: 390px;
+    margin-top:-810px;
+    margin-bottom: -100px;
+    margin-left: 1007px;
+    margin-right:1px;
+}
+.test2   {
+    background-color: #db6736b0;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top:-410px;
+    margin-bottom: -100px;
+    margin-left: 1007px;
+    margin-right:1px;
+}
+.about  {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgba(30, 210, 93, 0.534);
+    margin-top:10px;
+    margin-bottom: -15px;
+    margin-left: 1px;
+    margin-right:1px;
+    height: 360px;
+    width: 1407px;
+
+}
+
+
+/* id selector */
+#gallery-menu   {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    z-index: 99999;
+    padding-left: 15px;
+    background-color: blue;
+    opacity: 50%;
+    visibility: hidden;
+    transform: translateY(-2vh);
+    transition: opacity 0.3s;
+}
+
+#categories {
+    list-style: none;
+    text-decoration: none;
+} 
+    
+#mission {
+    width: 400px;
+    border: solid;
+    border-color: #a3cf1e;
+}
+#contact    {
+    display: inline-block;
+    height: 550px;
+}
+#about    {
+        display: inline-block;
+        height: 300px;
+}
+#vision    {
+    display:inline-block;
+    border: solid;
+    border-color: #a3cf1e;
+    display: inline-block;
+    width: 400px;
+    margin-top: 400px;
+    margin-bottom: -100px;
+    margin-left: 100px;
+}
+#mating {
+    box-sizing: border-box;
+    height: 300px;
+    width: 950px;
+    
+}
+
+#baby   {
+    height: 450px;
+}
+#diverse    {
+    height: 450px;
+}
+#main-description   {
+    background-color: #389eca;
+    width: 1407px;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#gallery1   {
+        display: block;  
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 620px;
+        width: 500px;
+        margin: 100px 200px -200px 100px;
+        padding: 10px 10px 10px 10px;
+}
+ #gallery2   {
+        display: block;  
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 500px;
+        width: 500px;
+        margin: 200px 200px -200px 100px;
+        padding: 10px 10px 10px 10px;
+ }
+#gallery3   {
+        display: block;  
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 620px;
+        width: 500px;
+        margin: -1005px 200px -200px 300px;
+        padding: 10px 10px 10px 10px;
+}
+ #gallery4   {
+        display: block;  
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 620px;
+        width: 500px;
+        margin: 200px 200px -200px 300px;
+        padding: 10px 10px 10px 10px;
+ }
+ #mission   {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+    font-size: large;
+    display: block;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 10px 200px -10px 200px;
+    background-color: red;
+    
+ }
+ #vision    {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font:bold;
+    display: block;
+    height: 200px;
+    box-sizing: border-box;
+    margin: -215px 200px -100px 750px;
+    background-color: white;
+ }
+ #first {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    vertical-align:bottom;
+    color: rgb(5, 15, 7);
+    width: 1407px;
+
+ }
+/* Grouping Selectors */
+h2 {
+    display: inline-block;
+    background-color: #18954e85;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 1px;
+    padding: 10px;
+    width: 95%;
+}
+h3 {
+    background-color: grey;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right:1px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+/* Styles for the <footer> section */
+footer {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    background-color: rgba(7, 83, 138, 0.538);
+    text-align: center;
+    width: 1407px;
+}
