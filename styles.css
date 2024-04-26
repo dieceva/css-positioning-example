@@ -5,8 +5,30 @@
     padding: 0;
 }
 */
+*   {
+    text-decoration: none;
+}
+img {
+    height: 200px;
+}
+#sticky2    {
+    height: 200px;
+    position: sticky;
+    top: 0px;
+    width: 250px;
+}
+div {
+    display: inline-block;
+    background-color: orange;
+    position: fixed;
+    top: 29%;
+    width: 250px;
+    left: 80%;
+    bottom: 50%;
+    height: 154px;
+    padding-bottom: 40px;
 
-
+}
 /* Whole page styles (everything is in <body> */
 body {
 
@@ -89,7 +111,7 @@ aside {
     height: 200px;
     margin-bottom: -240px;
     margin-top: 10x;
-    margin-left: 800px;
+    margin-left: 550px;
     margin-right: 0px;
 }
 span    {
@@ -166,6 +188,8 @@ span    {
 }
 
 #categories {
+    position: sticky;
+    top: 0px;
     list-style: none;
     text-decoration: none;
 } 
